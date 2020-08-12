@@ -9,7 +9,7 @@ def fibonacci(limite:int = 100) -> list:
     anterior = 0
     fibonacci_list = []
     while (proximo < limite):
-        fibonare.append(proximo)
+        fibonacci_list.append(proximo)
         proximo = proximo + anterior
         anterior = proximo - anterior
         if(proximo == 0):
